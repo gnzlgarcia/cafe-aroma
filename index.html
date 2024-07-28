@@ -18,11 +18,11 @@
 
 <body>
     <nav class="poppins-regular">
-        <a href="#Inicio">Inicio</a>
-        <a href="Menu">Menu</a>
-        <a href="Contacto">Contacto</a>
+        <a href="#inicio">Inicio</a>
+        <a href="#menu">Menu</a>
+        <a href="#contacto">Contacto</a>
     </nav>
-    <header class="hero">
+    <header class="hero" id="inicio">
         <div class="hero-content">
             <h1>Café Aroma</h1>
             <p>Descubre el placer de un buen café</p>
@@ -30,8 +30,33 @@
        
     </header>
     <main>
-        <section>
-            <span></span>
+        <section class="favorites" id="menu">
+            <div class="container">
+                <div class="card-grid">
+                    <div class="card">
+                        <img src="images/expreso.jpeg" alt="Café espreso">
+                        <div class="card-content">
+                            <h3>Espresso</h3>
+                            <p>Intenso y aromático, perfecto para los amantes del café fuerte.</p>
+                        </div>    
+                    </div>
+                    <div class="card">
+                        <img src="images/capuchino.jpeg" alt="Café cappuccino">
+                        <div class="card-content">
+                            <h3>Cappuccino</h3>
+                            <p>Equilibrio perfecto entre espresso, leche vaporizada y espuma.</p>
+                        </div>    
+                    </div>
+                    <div class="card">
+                        <img src="images/late.jpeg" alt="Café late">
+                        <div class="card-content">
+                            <h3>Latte</h3>
+                            <p>Suave y cremoso, ideal para quienes prefieren un café más ligero.</p>
+                        </div>    
+                    </div>
+    
+                </div>
+            </div>
         </section>
 
     </main>
